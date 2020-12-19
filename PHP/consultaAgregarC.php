@@ -5,7 +5,7 @@
 		//Conexón a la base de datos
 		include("conexionBaseDatos.php");
 	    $conexion = conectar();
-	    //Consulta de la comentario 
+	    //Consulta de la comentario  
 	    $consulta_comentario="INSERT INTO comentario(comentario, fecha_comentario, id_produc, id_usr)" . "VALUES ('$_GET[comentarioP]', CURRENT_TIMESTAMP(), '$_GET[prodId]', '$_GET[usrId]')";
 	    if($conexion->query($consulta_comentario) == TRUE){
 	    	echo "1";

@@ -82,6 +82,8 @@
 
 						<div id="hacerComentario"></div>
 						<div id="ecribirComentario"></div>
+						<br><hr class="linea1"><br>
+						<div id="listaComentarios"></div>
 						
 					';
 

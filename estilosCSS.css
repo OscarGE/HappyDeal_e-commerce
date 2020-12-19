@@ -663,3 +663,26 @@ border: 3px solid #009879;
 	background-color: #009879;
 	padding: 5px 5px;
 }
+.nomC{
+	font-size:30px;
+	color:   #009879;
+	padding: 5px 5px;
+}
+.fecha{
+	font-size:12px;
+	color:  #000000;
+	padding: 5px 5px;
+	text-align: right;
+}
+.eliminar{
+	font-size:19px;
+	color:   #FF0000;
+	padding: 0px 0px;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+}
+.eliminar:hover {font-size: 25px;}
+.eliminar:active {
+  transform: translateY(4px);
+}
